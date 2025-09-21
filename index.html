@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>JavaScript Practice</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Playground</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h2>Random Color Generator</h2>
-    <h3>Random Color</h3>
-    <button>Generate Color</button><br /><br />
-    <div>This is your new color</div>
+    <div class="container">
+      <h1>Color Playground</h1>
+      <div class="controls">
+        <button id="generate-btn">Generate Color</button>
+        <button id="copy-btn">Copy Color</button>
+        <select id="format-select">
+          <option value="rgb">RGB</option>
+          <option value="hex">HEX</option>
+        </select>
+      </div>
+      <h3 id="color-code">#FFFFFF</h3>
+      <div id="color-box">Your new color appears here</div>
+
+      <h2>Color History</h2>
+      <div id="color-history" class="history"></div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
