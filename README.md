@@ -1,4 +1,4 @@
-# Random Color Generator 🎨
+# Random Color Generator 
 
 The Random Color Generator is a simple and interactive web application that generates random colors at the click of a button. It allows users to explore different color combinations, copy color codes and get inspiration for design, art or web projects.
 
